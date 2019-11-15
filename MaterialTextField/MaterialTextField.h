@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MaterialTextFields.h"
 
 //! Project version number for MaterialTextField.
 FOUNDATION_EXPORT double MaterialTextFieldVersionNumber;
