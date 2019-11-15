@@ -61,7 +61,6 @@
 		9FFE2991237E808F0009A76A /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE28D2237E808E0009A76A /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FFE2992237E808F0009A76A /* MaterialMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE28D3237E808E0009A76A /* MaterialMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FFE2993237E808F0009A76A /* MaterialMathDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE28D4237E808E0009A76A /* MaterialMathDummy.m */; };
-		9FFE2994237E808F0009A76A /* MaterialPalettes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE28D5237E808E0009A76A /* MaterialPalettes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FFE2995237E808F0009A76A /* MDCTextInputUnderlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE28D6237E808E0009A76A /* MDCTextInputUnderlineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FFE2996237E808F0009A76A /* MDCTextInputControllerUnderline.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE28D7237E808E0009A76A /* MDCTextInputControllerUnderline.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FFE2997237E808F0009A76A /* MDCTextInputControllerFloatingPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE28D8237E808E0009A76A /* MDCTextInputControllerFloatingPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -189,6 +188,11 @@
 		9FFE2A11237E80910009A76A /* MDCShadowLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE295B237E808F0009A76A /* MDCShadowLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FFE2A12237E80910009A76A /* MDCTextInputCharacterCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE295C237E808F0009A76A /* MDCTextInputCharacterCounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FFE2A13237E80910009A76A /* MaterialTextFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE295D237E808F0009A76A /* MaterialTextFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFE2A21237E8AE80009A76A /* MDCPaletteNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE2A15237E8AE70009A76A /* MDCPaletteNames.m */; };
+		9FFE2A22237E8AE80009A76A /* MaterialPalettes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE2A16237E8AE70009A76A /* MaterialPalettes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFE2A28237E8AE80009A76A /* MDCPaletteNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE2A1D237E8AE80009A76A /* MDCPaletteNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFE2A29237E8AE80009A76A /* MDCPaletteExpansions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE2A1E237E8AE80009A76A /* MDCPaletteExpansions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFE2A2A237E8AE80009A76A /* MDCPaletteExpansions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE2A1F237E8AE80009A76A /* MDCPaletteExpansions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -248,7 +252,6 @@
 		9FFE28D2237E808E0009A76A /* MDCMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCMath.h; sourceTree = "<group>"; };
 		9FFE28D3237E808E0009A76A /* MaterialMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialMath.h; sourceTree = "<group>"; };
 		9FFE28D4237E808E0009A76A /* MaterialMathDummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialMathDummy.m; sourceTree = "<group>"; };
-		9FFE28D5237E808E0009A76A /* MaterialPalettes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialPalettes.h; sourceTree = "<group>"; };
 		9FFE28D6237E808E0009A76A /* MDCTextInputUnderlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCTextInputUnderlineView.h; sourceTree = "<group>"; };
 		9FFE28D7237E808E0009A76A /* MDCTextInputControllerUnderline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCTextInputControllerUnderline.h; sourceTree = "<group>"; };
 		9FFE28D8237E808E0009A76A /* MDCTextInputControllerFloatingPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCTextInputControllerFloatingPlaceholder.h; sourceTree = "<group>"; };
@@ -376,6 +379,11 @@
 		9FFE295B237E808F0009A76A /* MDCShadowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCShadowLayer.h; sourceTree = "<group>"; };
 		9FFE295C237E808F0009A76A /* MDCTextInputCharacterCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCTextInputCharacterCounter.h; sourceTree = "<group>"; };
 		9FFE295D237E808F0009A76A /* MaterialTextFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialTextFields.h; sourceTree = "<group>"; };
+		9FFE2A15237E8AE70009A76A /* MDCPaletteNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCPaletteNames.m; sourceTree = "<group>"; };
+		9FFE2A16237E8AE70009A76A /* MaterialPalettes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialPalettes.h; sourceTree = "<group>"; };
+		9FFE2A1D237E8AE80009A76A /* MDCPaletteNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCPaletteNames.h; sourceTree = "<group>"; };
+		9FFE2A1E237E8AE80009A76A /* MDCPaletteExpansions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCPaletteExpansions.h; sourceTree = "<group>"; };
+		9FFE2A1F237E8AE80009A76A /* MDCPaletteExpansions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCPaletteExpansions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,7 +446,6 @@
 				9FFE28CF237E808E0009A76A /* MDCTextInputControllerLegacyDefault.m */,
 				9FFE28D0237E808E0009A76A /* MDCPalettes.h */,
 				9FFE28D1237E808E0009A76A /* Math */,
-				9FFE28D5237E808E0009A76A /* MaterialPalettes.h */,
 				9FFE28D6237E808E0009A76A /* MDCTextInputUnderlineView.h */,
 				9FFE28D7237E808E0009A76A /* MDCTextInputControllerUnderline.h */,
 				9FFE28D8237E808E0009A76A /* MDCTextInputControllerFloatingPlaceholder.h */,
@@ -727,6 +734,11 @@
 		9FFE295E237E808F0009A76A /* Palettes */ = {
 			isa = PBXGroup;
 			children = (
+				9FFE2A16237E8AE70009A76A /* MaterialPalettes.h */,
+				9FFE2A1E237E8AE80009A76A /* MDCPaletteExpansions.h */,
+				9FFE2A1F237E8AE80009A76A /* MDCPaletteExpansions.m */,
+				9FFE2A1D237E8AE80009A76A /* MDCPaletteNames.h */,
+				9FFE2A15237E8AE70009A76A /* MDCPaletteNames.m */,
 			);
 			path = Palettes;
 			sourceTree = "<group>";
@@ -840,10 +852,12 @@
 				9FFE29D7237E80900009A76A /* MDCSlantedRectShapeGenerator.h in Headers */,
 				9FFE29E0237E80900009A76A /* MDCTriangleEdgeTreatment.h in Headers */,
 				9FFE2A09237E80900009A76A /* MDCBasicFontScheme.h in Headers */,
-				9FFE2994237E808F0009A76A /* MaterialPalettes.h in Headers */,
 				9FFE2979237E808F0009A76A /* MDCLegacyColorScheme.h in Headers */,
 				9FFE29CF237E80900009A76A /* MDCTextInputControllerFilled.h in Headers */,
 				9FFE2A01237E80900009A76A /* MDCShapeGenerating.h in Headers */,
+				9FFE2A29237E8AE80009A76A /* MDCPaletteExpansions.h in Headers */,
+				9FFE2A28237E8AE80009A76A /* MDCPaletteNames.h in Headers */,
+				9FFE2A22237E8AE80009A76A /* MaterialPalettes.h in Headers */,
 				9FFE2995237E808F0009A76A /* MDCTextInputUnderlineView.h in Headers */,
 				9FFE29D1237E80900009A76A /* MDCCurvedRectShapeGenerator.h in Headers */,
 				9FFE29DC237E80900009A76A /* MDCRoundedCornerTreatment.h in Headers */,
@@ -962,6 +976,7 @@
 				9FFE2A04237E80900009A76A /* MDCShapeCategory.m in Sources */,
 				9FFE29E7237E80900009A76A /* MDCContainerScheme.m in Sources */,
 				9FFE29A7237E808F0009A76A /* MDCIntrinsicHeightTextView.m in Sources */,
+				9FFE2A21237E8AE80009A76A /* MDCPaletteNames.m in Sources */,
 				9FFE29B4237E80900009A76A /* MDCTypography.m in Sources */,
 				9FFE29A2237E808F0009A76A /* MDCTextInputCommonFundament.m in Sources */,
 				9FFE2986237E808F0009A76A /* MDCMultilineTextField.m in Sources */,
@@ -988,6 +1003,7 @@
 				9FFE29C9237E80900009A76A /* UIView+MaterialElevationResponding.m in Sources */,
 				9FFE296A237E808F0009A76A /* MDCTextFieldFontThemer.m in Sources */,
 				9FFE297F237E808F0009A76A /* MDFRTL.m in Sources */,
+				9FFE2A2A237E8AE80009A76A /* MDCPaletteExpansions.m in Sources */,
 				9FFE29D3237E80900009A76A /* MDCRoundedCornerTreatment.m in Sources */,
 				9FFE29DA237E80900009A76A /* CAMediaTimingFunction+MDCAnimationTiming.m in Sources */,
 				9FFE2963237E808F0009A76A /* MDCTextInputControllerBase.m in Sources */,
